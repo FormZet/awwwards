@@ -1,0 +1,9 @@
+.header{
+	height: 60px;
+	background-color: white;
+	box-shadow: 3px 2px 10px #565656
+	height:30px;
+}
+.header-logo img{
+	width: 40px;
+}

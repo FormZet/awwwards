@@ -1,0 +1,23 @@
+body, h1, h2, h3, h4, p, a {
+	margin: 0;
+	font-family: "Mont";
+}
+
+a, input {
+	text-decoration: none;
+	outline: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+body {
+
+}
