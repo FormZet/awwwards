@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, p, a {
+body, h1, h2, h3, h4, p, a, ul{
 	margin: 0;
 	font-family: "Mont";
 }
@@ -19,5 +19,5 @@ ul {
 
 
 body {
-
+background-color: #f4f4f4;
 }
