@@ -1,0 +1,45 @@
+.section-main{
+	user-select:none;
+	display: flex;
+	align-items: center;
+	height: calc(100vh - 60px);
+}
+
+.section-main h1{
+	color: white;
+	font-size: 50px;
+	transition: .5s ease-out;
+	transform: translateY(-100%);
+}
+.section-main h2{
+	color: white;
+	font-weight:300;
+	font-size: 23px;
+	transition: .8s ease-out;
+	transform: translateY(100%);
+}
+.section-main h1.-animated,
+.section-main h2.-animated {
+	transform: translateY(0);
+}
+
+.title, .subtitle{
+	overflow: hidden;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+  position: absolute;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  background-color: #565656;
+  background-image: url("../images/bg3.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
