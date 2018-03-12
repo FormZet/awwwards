@@ -1,0 +1,92 @@
+.modal {
+  width: calc(100% - 20px);
+  max-width:600px;
+  position: fixed;
+  top: 85px;
+  left: auto;
+  right: 10px;
+   background-color: whitesmoke;
+  border-radius: 4px;
+  transform: translateX(103%);
+  transition: .6s ease-out;
+  overflow: hidden;
+}
+
+.modal.-active {
+  transform: translateX(0);
+}
+
+.modal.-none {
+  transform: translateX(-200%);
+}
+
+/*====LINKS====*/
+
+.modal-links {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: calc(100%-20px)
+  left:-10px;
+}
+
+.modal-links a {   
+  width: 50px;   
+  margin: 0 10px;   
+  transform: translateY(-200%);   
+  transition: 0.2s; 
+} 
+
+.modal-links a.-active { 
+  transform:translateY(0);  
+}  
+
+.modal-links img {   
+  width: 50px; 
+}
+
+/*====TOGGLER====*/
+
+.modal-toggler {
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  transition: 2s ease-out;
+}
+
+.modal-toggler:before, .modal-toggler:after {
+  position: absolute;
+  display: block;
+  content: '';
+
+  width: 21px;
+  height: 1px;
+  background-color: #565656;
+}
+
+.modal-toggler:before {
+  transform: rotate(45deg) translateY(50%);
+}
+
+.modal-toggler:after {
+  transform: rotate(-45deg) translateY(50%);
+}
+
+/*====Map====*/
+
+
+.modal-map{
+  height: 200px;
+  transform: translateY(200%);
+  transition: .2s;
+}
+
+.modal-map.-active{
+  transform: translateY(0);
+
+}
