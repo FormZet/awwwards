@@ -4,6 +4,10 @@ $(document).ready(function() {
 		'bg2.jpg',
 		'bg3.gif'
 	];
+   $(".owl-carousel").owlCarousel({
+      items: 1,
+      autoHeight: true
+   });
 	$('#particles-js').css({
 		'background-image':'url(assets/images/' + backgrounds[Math.floor(Math.random() *(3-0) + 0)] + ')'
  	})		
